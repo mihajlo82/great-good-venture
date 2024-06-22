@@ -17,12 +17,7 @@
 
 .font__gray {
   color: #7a7a7a;
-}
-
-.risk__wrapper {
-  background-color: orange;
-  display: flex;
-}
+} 
 
 .subject__icon {
   cursor: pointer;
