@@ -1,0 +1,29 @@
+.table__row {
+  width: 100%;
+  display: flex;
+  padding: 15px 0;
+  border-top: 1px solid rgb(202, 202, 202);
+}
+
+.table__row > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.table__row div:first-child {
+  padding-left: 10px;
+}
+
+.font__gray {
+  color: #7a7a7a;
+}
+
+.risk__wrapper {
+  background-color: orange;
+  display: flex;
+}
+
+.subject__icon {
+  cursor: pointer;
+}

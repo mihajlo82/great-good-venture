@@ -1,0 +1,9 @@
+.table__head {
+  width: 100%;
+  display: flex;
+  padding: 15px 0;
+}
+
+.table__head div:first-child {
+  padding-left: 10px;
+}

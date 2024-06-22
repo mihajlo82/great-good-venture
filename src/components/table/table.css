@@ -1,0 +1,13 @@
+.table__layout {
+  width: 100%;
+  background-color: white;
+}
+
+.table {
+  width: 100%;
+}
+
+.no__data--found {
+  padding: 10px;
+  color: rgb(99, 99, 99);
+}

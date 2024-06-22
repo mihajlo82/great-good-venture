@@ -1,0 +1,12 @@
+.chart {
+  margin-top: 10px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.chart__title {
+  padding-bottom: 10px;
+}

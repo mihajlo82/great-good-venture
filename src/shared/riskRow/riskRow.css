@@ -1,0 +1,16 @@
+.risk__row {
+  display: flex;
+  align-items: center;
+}
+
+.checker {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.checker__text {
+  margin-left: 4px;
+  color: rgb(66, 201, 66);
+}

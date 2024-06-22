@@ -1,0 +1,73 @@
+import { IMetaRow, IRow } from "../components/table/type";
+
+export const META_ROWS: IMetaRow[] = [
+  { id: 1, label: "Created", size: 13 },
+  { id: 2, label: "Name", size: 26 },
+  { id: 3, label: "Type", size: 12 },
+  { id: 4, label: "Risk Score", size: 14 },
+  { id: 5, label: "Status", size: 25 },
+  { id: 6, label: "", size: 10 },
+];
+
+export const TABLE_DATA: IRow[] = [
+  {
+    id: 1,
+    createdDate: "May 15, 2024",
+    createdTime: "14:32:11",
+    username: "KAROLY-EDWARD RACZ",
+    email: "sdgh@dasdh.com",
+    type: "aiscan2",
+    score: "LOW",
+    status: "Approved",
+  },
+  {
+    id: 2,
+    createdDate: "May 12, 2024",
+    createdTime: "13:33:44",
+    username: "MARK BLANK",
+    email: "greadsa@dasdh.com",
+    type: "aiscan2",
+    score: "LOW",
+    status: "Approved",
+  },
+  {
+    id: 3,
+    createdDate: "Apr 02, 2024",
+    createdTime: "15:55:50",
+    username: "FARUKO GENTILL",
+    email: "yewer@hgddh.com",
+    type: "aiscan2",
+    score: null,
+    status: "Customer Processing",
+  },
+  {
+    id: 4,
+    createdDate: "Mar 07, 2024",
+    createdTime: "17:42:07",
+    username: "JOEL ROMERO",
+    email: "yuiop@ddsadh.com",
+    type: "aiscan2",
+    score: "LOW",
+    status: "Approved",
+  },
+  {
+    id: 5,
+    createdDate: "Feb 11, 2024",
+    createdTime: "18:32:07",
+    username: "JOE ROGAN",
+    email: "maroi@dnvbx.com",
+    type: "aiscan2",
+    score: null,
+    status: "User Accepted KYC Invitation",
+  },
+  {
+    id: 6,
+    createdDate: "Jun 14, 2024",
+    createdTime: "09:22:01",
+    username: "MARK REYNOLDS",
+    email: "regh@dasdh.com",
+    type: "aiscan2",
+    score: "LOW",
+    status: "Approved",
+  },
+];
